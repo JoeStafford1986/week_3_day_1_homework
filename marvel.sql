@@ -64,7 +64,7 @@ DELETE FROM people WHERE name = 'Zsolt Podoba-Szalai';
 UPDATE people SET name = 'Jeff 4' WHERE name = 'Andrew Laughlin';
 UPDATE people SET name = 'Jeff 5' WHERE name = 'Andrew Smith';
 
-
+INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy 2', 2017, '00:00');
 
 --Q1
 SELECT * FROM movies;
