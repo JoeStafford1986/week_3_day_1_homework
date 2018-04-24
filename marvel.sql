@@ -66,6 +66,9 @@ UPDATE people SET name = 'Jeff 5' WHERE name = 'Andrew Smith';
 
 INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy 2', 2017, '00:00');
 
+UPDATE movies SET show_time = '21:30' WHERE show_time = '18:55';
+
+
 --Q1
 SELECT * FROM movies;
 --Q2
