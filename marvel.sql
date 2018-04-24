@@ -54,7 +54,6 @@ INSERT INTO movies (title, year, show_time) VALUES ('Captain America: Civil War'
 INSERT INTO movies (title, year, show_time) VALUES ('Doctor Strange', 2016, '17:55');
 
 ---------- additions
---Q3
 UPDATE people SET name = 'Davina Sanders' WHERE name = 'Davinda Sanders';
 
 DELETE FROM movies WHERE title = 'Batman Begins';
@@ -72,11 +71,7 @@ DELETE FROM movies WHERE year IN (2008, 2017);
 
 DELETE FROM people WHERE id IN (1, 2, 3, 4, 5);
 
-
-
---Q1
 SELECT * FROM movies;
---Q2
 
 INSERT INTO people (name) VALUES ('Sandy McMillan');
 
