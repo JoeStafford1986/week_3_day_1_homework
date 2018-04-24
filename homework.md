@@ -52,9 +52,13 @@ DELETE FROM people WHERE name = 'Zsolt Podoba-Szalai';
 
 8. Somehow the list of people includes two people named 'Andrew'. Change these entries to the proper names ('Jeff 4', 'Jeff 5')
 
-
+UPDATE people SET name = 'Jeff 4' WHERE name = 'Andrew Laughlin';
+UPDATE people SET name = 'Jeff 5' WHERE name = 'Andrew Smith';
 
 9. The cinema has just heard that they will be holding an exclusive midnight showing of 'Guardians of the Galaxy 2'!! Create a new entry in the 'movies' table to reflect this.
+
+
+
 10. The cinema would also like to make the Guardian movies a back to back feature. Update the 'Guardians of the Galaxy' show time from 18:55 to 21:30
 
 ## Extension

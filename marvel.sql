@@ -62,6 +62,8 @@ DELETE FROM movies WHERE title = 'Batman Begins';
 DELETE FROM people WHERE name = 'Zsolt Podoba-Szalai';
 
 UPDATE people SET name = 'Jeff 4' WHERE name = 'Andrew Laughlin';
+UPDATE people SET name = 'Jeff 5' WHERE name = 'Andrew Smith';
+
 
 
 --Q1
