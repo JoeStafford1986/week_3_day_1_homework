@@ -68,6 +68,11 @@ INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy 2',
 
 UPDATE movies SET show_time = '21:30' WHERE show_time = '18:55';
 
+DELETE FROM movies WHERE year IN (2008, 2017);
+
+DELETE FROM people WHERE id IN (1, 2, 3, 4, 5);
+
+
 
 --Q1
 SELECT * FROM movies;
